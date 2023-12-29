@@ -1,10 +1,16 @@
 import Gameboard from "./GameBoard";
-function App(){
-    return (
-      <div className="app-container">
+import WordFlick from "./Wordflick";
+function App() {
+  return (
+    <div className="app-container">
+      <div className="centered-box">
+        <h3>
+          <WordFlick />
+        </h3>
+      </div>
       <Gameboard />
-      </div>  
-    )
+    </div>
+  );
 }
 
 export default App;
